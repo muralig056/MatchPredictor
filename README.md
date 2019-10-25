@@ -27,6 +27,7 @@ Command: **ps> msbuild  .\build.proj /p:Configuration=Debug /t:start**
 1. Set the path to solutionsdirecoty in powershell
 2. Execute the **Start** commands above
 3. You will see the result in powershell console.
+![alt tag](https://raw.githubusercontent.com/muralig056/MatchPredictor/master/resources/powershell-op.PNG)   
 
 **II) using Visual studio**
 Run the test application form visual studio.
