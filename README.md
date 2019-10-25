@@ -44,3 +44,4 @@ There is a straightforward (steps)algorithm for picking an item at random, where
 ## References
 * https://stackoverflow.com/questions/1761626/weighted-random-numbers
 * https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2019
+* https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
