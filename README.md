@@ -24,7 +24,7 @@ Command: **ps> msbuild  .\build.proj /p:Configuration=Debug /t:start**
 
 ## Steps to run the application
 **I) using MSBuild**
-1. Set the path to solutionsdirecoty in powershell
+1. Set the path to solution directory in powershell
 2. Execute the **Start** commands above
 3. You will see the result in powershell console.
 ![alt tag](https://raw.githubusercontent.com/muralig056/MatchPredictor/master/resources/powershell-op.PNG)   
