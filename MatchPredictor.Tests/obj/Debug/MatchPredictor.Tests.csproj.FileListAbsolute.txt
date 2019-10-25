@@ -1,0 +1,8 @@
+c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor.Tests\bin\Debug\MatchPredictor.Tests.dll
+c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor.Tests\bin\Debug\MatchPredictor.Tests.pdb
+c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor.Tests\bin\Debug\MatchPredictor.exe
+c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor.Tests\bin\Debug\MatchPredictor.pdb
+c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor.Tests\obj\Debug\MatchPredictor.Tests.csprojResolveAssemblyReference.cache
+c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor.Tests\obj\Debug\MatchPredictor.Tests.dll
+c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor.Tests\obj\Debug\MatchPredictor.Tests.pdb

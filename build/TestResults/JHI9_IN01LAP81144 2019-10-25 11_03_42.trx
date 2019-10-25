@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ac5ff394-0e9e-451d-96c1-b3f8ad533c43" name="JHI9@IN01LAP81144 2019-10-25 11:03:42" runUser="ES-AREA1\JHI9" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="8e3297c2-c311-483f-897f-396183006d02">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="JHI9_IN01LAP81144 2019-10-25 11_03_42" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-10-25T11:03:42.2402493+05:30" queuing="2019-10-25T11:03:43.0093441+05:30" start="2019-10-25T11:03:43.1076820+05:30" finish="2019-10-25T11:03:43.8900985+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="8" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Team_LessThanTwoPlayers_CurrentPlayersWillNull" storage="c:\users\jhi9\documents\visual studio 2015\projects\matchpredictor\matchpredictor.tests\bin\debug\matchpredictor.tests.dll" id="9892a0a4-dd45-c3e8-dd9b-cab987511e46">
+      <Execution id="b9f4730d-91d2-4e5f-816d-7af4220678d2" />
+      <TestMethod codeBase="C:/Users/jhi9/Documents/Visual Studio 2015/Projects/MatchPredictor/MatchPredictor.Tests/bin/Debug/MatchPredictor.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MatchPredictor.Tests.Models.TeamTests, MatchPredictor.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Team_LessThanTwoPlayers_CurrentPlayersWillNull" />
+    </UnitTest>
+    <UnitTest name="GetBallResult_ForThePlayer_ReturnsUpdatesBallsPlayedCorrectly" storage="c:\users\jhi9\documents\visual studio 2015\projects\matchpredictor\matchpredictor.tests\bin\debug\matchpredictor.tests.dll" id="029f9857-7696-6705-07f3-2fb2151eaeda">
+      <Execution id="f7e67855-516c-44d1-b7f8-d03586d78a65" />
+      <TestMethod codeBase="C:/Users/jhi9/Documents/Visual Studio 2015/Projects/MatchPredictor/MatchPredictor.Tests/bin/Debug/MatchPredictor.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MatchPredictor.Tests.Models.PlayerTests, MatchPredictor.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetBallResult_ForThePlayer_ReturnsUpdatesBallsPlayedCorrectly" />
+    </UnitTest>
+    <UnitTest name="UpdatePlayers_ScoredEvenRuns_StrikeNotChanged" storage="c:\users\jhi9\documents\visual studio 2015\projects\matchpredictor\matchpredictor.tests\bin\debug\matchpredictor.tests.dll" id="d01342ed-5783-dd02-4ec5-a458951d8179">
+      <Execution id="d600b05e-8f00-4562-b37d-e47533e59c9b" />
+      <TestMethod codeBase="C:/Users/jhi9/Documents/Visual Studio 2015/Projects/MatchPredictor/MatchPredictor.Tests/bin/Debug/MatchPredictor.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MatchPredictor.Tests.Models.TeamTests, MatchPredictor.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdatePlayers_ScoredEvenRuns_StrikeNotChanged" />
+    </UnitTest>
+    <UnitTest name="Team_MoreThanOrEqualToTwoPlayers_OnlyTwoPlayersWillBePlaying" storage="c:\users\jhi9\documents\visual studio 2015\projects\matchpredictor\matchpredictor.tests\bin\debug\matchpredictor.tests.dll" id="ed395f28-d3af-858e-53aa-29de5dc0fce8">
+      <Execution id="a63376cf-da2f-4c74-b88d-be2e8ff13925" />
+      <TestMethod codeBase="C:/Users/jhi9/Documents/Visual Studio 2015/Projects/MatchPredictor/MatchPredictor.Tests/bin/Debug/MatchPredictor.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MatchPredictor.Tests.Models.TeamTests, MatchPredictor.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Team_MoreThanOrEqualToTwoPlayers_OnlyTwoPlayersWillBePlaying" />
+    </UnitTest>
+    <UnitTest name="UpdatePlayers_ScoredOddRuns_StrikeChangedTest" storage="c:\users\jhi9\documents\visual studio 2015\projects\matchpredictor\matchpredictor.tests\bin\debug\matchpredictor.tests.dll" id="dfdd65ab-caa4-177c-9e97-5246f19f7579">
+      <Execution id="05fed572-7546-485a-a1e7-88c4c18fcbdc" />
+      <TestMethod codeBase="C:/Users/jhi9/Documents/Visual Studio 2015/Projects/MatchPredictor/MatchPredictor.Tests/bin/Debug/MatchPredictor.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MatchPredictor.Tests.Models.PlayerTests, MatchPredictor.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdatePlayers_ScoredOddRuns_StrikeChangedTest" />
+    </UnitTest>
+    <UnitTest name="UpdatePlayers_ScoredOddRuns_StrikeChanged" storage="c:\users\jhi9\documents\visual studio 2015\projects\matchpredictor\matchpredictor.tests\bin\debug\matchpredictor.tests.dll" id="2e20a0d7-d9e9-3a2a-ffbd-2bf77ff456f0">
+      <Execution id="de3e2ab2-f0d7-4b81-bd85-26080ca37b30" />
+      <TestMethod codeBase="C:/Users/jhi9/Documents/Visual Studio 2015/Projects/MatchPredictor/MatchPredictor.Tests/bin/Debug/MatchPredictor.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MatchPredictor.Tests.Models.TeamTests, MatchPredictor.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdatePlayers_ScoredOddRuns_StrikeChanged" />
+    </UnitTest>
+    <UnitTest name="UpdatePlayers_WhenOut_PlayerShouldBeRemoved" storage="c:\users\jhi9\documents\visual studio 2015\projects\matchpredictor\matchpredictor.tests\bin\debug\matchpredictor.tests.dll" id="961717d5-1df5-571c-442e-da1c04069104">
+      <Execution id="a9877089-4645-4e47-b2bd-3adc39b34d7e" />
+      <TestMethod codeBase="C:/Users/jhi9/Documents/Visual Studio 2015/Projects/MatchPredictor/MatchPredictor.Tests/bin/Debug/MatchPredictor.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MatchPredictor.Tests.Models.TeamTests, MatchPredictor.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdatePlayers_WhenOut_PlayerShouldBeRemoved" />
+    </UnitTest>
+    <UnitTest name="Player_ForGivenProbability_CalculatesCummulativeSum" storage="c:\users\jhi9\documents\visual studio 2015\projects\matchpredictor\matchpredictor.tests\bin\debug\matchpredictor.tests.dll" id="7eeefa12-2ec0-8a8b-f688-017064126955">
+      <Execution id="0654e815-2f29-45ff-9e61-40e095842352" />
+      <TestMethod codeBase="C:/Users/jhi9/Documents/Visual Studio 2015/Projects/MatchPredictor/MatchPredictor.Tests/bin/Debug/MatchPredictor.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MatchPredictor.Tests.Models.PlayerTests, MatchPredictor.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Player_ForGivenProbability_CalculatesCummulativeSum" />
+    </UnitTest>
+    <UnitTest name="RotateStrike_OnScoringOddRuns_StrikeChanged" storage="c:\users\jhi9\documents\visual studio 2015\projects\matchpredictor\matchpredictor.tests\bin\debug\matchpredictor.tests.dll" id="9f76153e-6fb6-c12a-d005-5410b35f1b9e">
+      <Execution id="016c749f-3442-4796-9028-5d58f3530e94" />
+      <TestMethod codeBase="C:/Users/jhi9/Documents/Visual Studio 2015/Projects/MatchPredictor/MatchPredictor.Tests/bin/Debug/MatchPredictor.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MatchPredictor.Tests.Models.TeamTests, MatchPredictor.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RotateStrike_OnScoringOddRuns_StrikeChanged" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="029f9857-7696-6705-07f3-2fb2151eaeda" executionId="f7e67855-516c-44d1-b7f8-d03586d78a65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7eeefa12-2ec0-8a8b-f688-017064126955" executionId="0654e815-2f29-45ff-9e61-40e095842352" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfdd65ab-caa4-177c-9e97-5246f19f7579" executionId="05fed572-7546-485a-a1e7-88c4c18fcbdc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f76153e-6fb6-c12a-d005-5410b35f1b9e" executionId="016c749f-3442-4796-9028-5d58f3530e94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9892a0a4-dd45-c3e8-dd9b-cab987511e46" executionId="b9f4730d-91d2-4e5f-816d-7af4220678d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed395f28-d3af-858e-53aa-29de5dc0fce8" executionId="a63376cf-da2f-4c74-b88d-be2e8ff13925" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d01342ed-5783-dd02-4ec5-a458951d8179" executionId="d600b05e-8f00-4562-b37d-e47533e59c9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e20a0d7-d9e9-3a2a-ffbd-2bf77ff456f0" executionId="de3e2ab2-f0d7-4b81-bd85-26080ca37b30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="961717d5-1df5-571c-442e-da1c04069104" executionId="a9877089-4645-4e47-b2bd-3adc39b34d7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f7e67855-516c-44d1-b7f8-d03586d78a65" testId="029f9857-7696-6705-07f3-2fb2151eaeda" testName="GetBallResult_ForThePlayer_ReturnsUpdatesBallsPlayedCorrectly" computerName="IN01LAP81144" duration="00:00:00.0423150" startTime="2019-10-25T11:03:43.1426265+05:30" endTime="2019-10-25T11:03:43.7850976+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7e67855-516c-44d1-b7f8-d03586d78a65">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at MatchPredictor.Tests.Models.PlayerTests.GetBallResult_ForThePlayer_ReturnsUpdatesBallsPlayedCorrectly() in C:\Users\jhi9\Documents\Visual Studio 2015\Projects\MatchPredictor\MatchPredictor.Tests\Models\PlayerTests.cs:line 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0654e815-2f29-45ff-9e61-40e095842352" testId="7eeefa12-2ec0-8a8b-f688-017064126955" testName="Player_ForGivenProbability_CalculatesCummulativeSum" computerName="IN01LAP81144" duration="00:00:00.0003267" startTime="2019-10-25T11:03:43.7870932+05:30" endTime="2019-10-25T11:03:43.7900847+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0654e815-2f29-45ff-9e61-40e095842352">
+    </UnitTestResult>
+    <UnitTestResult executionId="05fed572-7546-485a-a1e7-88c4c18fcbdc" testId="dfdd65ab-caa4-177c-9e97-5246f19f7579" testName="UpdatePlayers_ScoredOddRuns_StrikeChangedTest" computerName="IN01LAP81144" duration="00:00:00.0001960" startTime="2019-10-25T11:03:43.7920803+05:30" endTime="2019-10-25T11:03:43.7950713+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05fed572-7546-485a-a1e7-88c4c18fcbdc">
+    </UnitTestResult>
+    <UnitTestResult executionId="016c749f-3442-4796-9028-5d58f3530e94" testId="9f76153e-6fb6-c12a-d005-5410b35f1b9e" testName="RotateStrike_OnScoringOddRuns_StrikeChanged" computerName="IN01LAP81144" duration="00:00:00.0009186" startTime="2019-10-25T11:03:43.7975838+05:30" endTime="2019-10-25T11:03:43.8000590+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="016c749f-3442-4796-9028-5d58f3530e94">
+    </UnitTestResult>
+    <UnitTestResult executionId="b9f4730d-91d2-4e5f-816d-7af4220678d2" testId="9892a0a4-dd45-c3e8-dd9b-cab987511e46" testName="Team_LessThanTwoPlayers_CurrentPlayersWillNull" computerName="IN01LAP81144" duration="00:00:00.0004369" startTime="2019-10-25T11:03:43.8030505+05:30" endTime="2019-10-25T11:03:43.8050461+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9f4730d-91d2-4e5f-816d-7af4220678d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="a63376cf-da2f-4c74-b88d-be2e8ff13925" testId="ed395f28-d3af-858e-53aa-29de5dc0fce8" testName="Team_MoreThanOrEqualToTwoPlayers_OnlyTwoPlayersWillBePlaying" computerName="IN01LAP81144" duration="00:00:00.0003834" startTime="2019-10-25T11:03:43.8100375+05:30" endTime="2019-10-25T11:03:43.8127995+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a63376cf-da2f-4c74-b88d-be2e8ff13925">
+    </UnitTestResult>
+    <UnitTestResult executionId="d600b05e-8f00-4562-b37d-e47533e59c9b" testId="d01342ed-5783-dd02-4ec5-a458951d8179" testName="UpdatePlayers_ScoredEvenRuns_StrikeNotChanged" computerName="IN01LAP81144" duration="00:00:00.0003208" startTime="2019-10-25T11:03:43.8160687+05:30" endTime="2019-10-25T11:03:43.8180108+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d600b05e-8f00-4562-b37d-e47533e59c9b">
+    </UnitTestResult>
+    <UnitTestResult executionId="de3e2ab2-f0d7-4b81-bd85-26080ca37b30" testId="2e20a0d7-d9e9-3a2a-ffbd-2bf77ff456f0" testName="UpdatePlayers_ScoredOddRuns_StrikeChanged" computerName="IN01LAP81144" duration="00:00:00.0002684" startTime="2019-10-25T11:03:43.8230044+05:30" endTime="2019-10-25T11:03:43.8260262+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de3e2ab2-f0d7-4b81-bd85-26080ca37b30">
+    </UnitTestResult>
+    <UnitTestResult executionId="a9877089-4645-4e47-b2bd-3adc39b34d7e" testId="961717d5-1df5-571c-442e-da1c04069104" testName="UpdatePlayers_WhenOut_PlayerShouldBeRemoved" computerName="IN01LAP81144" duration="00:00:00.0011384" startTime="2019-10-25T11:03:43.8299790+05:30" endTime="2019-10-25T11:03:43.8329700+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9877089-4645-4e47-b2bd-3adc39b34d7e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

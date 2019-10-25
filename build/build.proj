@@ -1,0 +1,47 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="MatchPredictor">
+
+<ItemGroup>
+    <TestAssemblies Include="..\MatchPredictor.Tests\bin\**\matchpredictor.tests.dll"/>
+	<Executable Include="..\MatchPredictor\bin\**\MatchPredictor.exe"/>
+</ItemGroup>
+<PropertyGroup>
+	<Action>Build</Action>
+</PropertyGroup>
+<Target Name="MatchPredictor">
+	<Message Text="building the application" />
+    <MSBuild Projects="..\MatchPredictor.sln" Targets="$(Action)" />
+</Target>
+
+<Target Name="BuildWithTests">
+	<Message Text="building the application" />
+    <MSBuild Projects="..\MatchPredictor.sln" Targets="$(Action)" />
+	<CallTarget Targets="RunMsTests"/>
+</Target>
+
+<Target Name="Start">
+	<Message Text="Running application"/>
+	<Message Text="----------------------------------------------------------"/>
+	<Exec Command="&quot;%(Executable.FullPath)&quot;"/>
+	<Message Text="----------------------------------------------------------"/>
+</Target>
+
+<Target Name="RunMsTests" DependsOnTargets="MatchPredictor">
+	<Message Text="Found test assemblies: @(TestAssemblies)"/>
+	<CallTarget Targets="RunMsTest"/>
+</Target>
+
+<Target Name="RunMsTest">
+	<Message Text="running unit tests" />
+	<Exec Condition=" '@(TestAssemblies)' != ''"
+          Command="Mstest.exe @(TestAssemblies ->'/testcontainer:&quot;%(FullPath)&quot;', ' ')"
+          />
+	<Message Text="Tests complete"/>
+	<Error Text="Error while executing MSTest" Condition="'$(ErrorCode)' != ''" />
+	<OnError ExecuteTargets="MessageErrorHandler"/>
+</Target>
+
+<Target Name="MessageErrorHandler">
+	<Message Text="An error has occurred while executing MSTest"/>
+</Target>
+
+</Project>
