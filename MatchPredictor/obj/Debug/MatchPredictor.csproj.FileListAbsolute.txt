@@ -1,6 +1,0 @@
-c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor\bin\Debug\MatchPredictor.exe.config
-c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor\bin\Debug\MatchPredictor.exe
-c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor\bin\Debug\MatchPredictor.pdb
-c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor\obj\Debug\MatchPredictor.exe
-c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor\obj\Debug\MatchPredictor.pdb
-c:\users\jhi9\documents\visual studio 2015\Projects\MatchPredictor\MatchPredictor\obj\Debug\MatchPredictor.csprojResolveAssemblyReference.cache
