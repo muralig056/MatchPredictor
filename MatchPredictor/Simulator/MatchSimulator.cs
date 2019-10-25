@@ -28,7 +28,7 @@ namespace MatchPredictor.Simulator
             EndGame();
         }
 
-        public void PrintBallUpdates(MatchStats matchStat)
+        private void PrintBallUpdates(MatchStats matchStat)
         {
             var print = (matchStat.Balls / 6) + "." + (matchStat.Balls % 6) + "  " + matchStat.CurrentPlayer.Name;
             print += (matchStat.CurrentRuns != -1) ? " scores " + matchStat.CurrentRuns + " runs " : " is out!";
@@ -46,7 +46,7 @@ namespace MatchPredictor.Simulator
             Console.WriteLine(print);
         }
 
-        public void EndGame()
+        private void EndGame()
         {
             var matchStat = _matchStat;
 
@@ -60,7 +60,7 @@ namespace MatchPredictor.Simulator
             PrintPlayers();
         }
 
-        public void PrintPlayers()
+        private void PrintPlayers()
         {
             string print = string.Empty;
             var players = _matchStat.BattingTeam.Players;
