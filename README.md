@@ -42,6 +42,9 @@ There is a straightforward (steps)algorithm for picking an item at random, where
 2) Pick a random number that is 0 or greater and is less than the sum of the weights
 3) Go through the items one at a time, subtracting their weight from your random number, until you get the item where the random number is less than that item's weight
 
+## Sample output
+![alt tag](https://raw.githubusercontent.com/muralig056/MatchPredictor/master/resources/output.PNG)
+
 ## References
 * https://stackoverflow.com/questions/1761626/weighted-random-numbers
 * https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2019
